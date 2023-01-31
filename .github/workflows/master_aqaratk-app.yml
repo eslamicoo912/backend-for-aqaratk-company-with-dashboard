@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'aqaratk-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C754071A3A874221913E05A1FF64D21D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D188EA7980946CD820A37726523372B }}
           package: .
