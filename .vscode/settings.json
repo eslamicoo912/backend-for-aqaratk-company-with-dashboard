@@ -1,0 +1,5 @@
+{
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/828395dc-a578-4584-9dc9-6c82e1d54205/AppServices/subscriptions/828395dc-a578-4584-9dc9-6c82e1d54205/resourceGroups/web-services-resource-group/providers/Microsoft.Web/sites/aqaratk-app",
+  "appService.deploySubpath": "."
+}

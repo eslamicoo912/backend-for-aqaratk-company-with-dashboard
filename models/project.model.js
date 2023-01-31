@@ -14,7 +14,7 @@ const Project = mongoose.Schema({
     type: String,
   },
   area: {
-    type: Number,
+    type: String,
   },
   price: {
     type: Number,
