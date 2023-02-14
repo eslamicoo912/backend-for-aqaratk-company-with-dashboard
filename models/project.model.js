@@ -19,6 +19,9 @@ const Project = mongoose.Schema({
   price: {
     type: Number,
   },
+  description: {
+    type: String,
+  },
 });
 
 const ProjectModel = mongoose.model("ProjectModel", Project);

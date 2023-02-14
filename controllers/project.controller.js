@@ -19,6 +19,16 @@ export const getProjects = async (req, res) => {
   }
 };
 
+export const getProjectById = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const project = await ProjectModel.findById(id);
+    res.json(project);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 export const getProjectsByTitle = async (req, res) => {
   const { title } = req.params;
   try {
