@@ -42,7 +42,7 @@ export const getProjectsByTitle = async (req, res) => {
 export const getProjectsBySearch = async (req, res) => {
   const { category, area } = req.params;
   try {
-    const projects = await ProjectModel.find(
+    await ProjectModel.find(
       {
         category: category,
         area: area,
@@ -50,7 +50,6 @@ export const getProjectsBySearch = async (req, res) => {
       (err, projects) => {
         if (err) console.log(err);
         else {
-          console.log(projects);
           res.json(projects);
         }
       }
